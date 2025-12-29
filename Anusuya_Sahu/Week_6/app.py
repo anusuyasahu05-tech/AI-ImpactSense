@@ -5,9 +5,9 @@ import pickle
 import os
 
 # --- CONFIGURATION ---
-MODEL_PATH = '../Week_4/output/earthquake_model_final.pkl'
-SCALER_PATH = '../Week_2/output/scaler.pkl'
-FEATURE_NAMES_PATH = '../Week_2/output/feature_names.pkl'
+MODEL_PATH = '/earthquake_model_final.pkl'
+SCALER_PATH = '/scaler.pkl'
+FEATURE_NAMES_PATH = '/feature_names.pkl'
 
 # --- PAGE SETUP ---
 st.set_page_config(page_title="ImpactSense", page_icon="🌍", layout="centered")
